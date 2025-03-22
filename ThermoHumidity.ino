@@ -13,9 +13,9 @@ void setup() {
   lcd.backlight();
   dht.begin();
   lcd.setCursor(0, 0);
-  lcd.print("Темп: ");
+  lcd.print("Temp: ");
   lcd.setCursor(0, 1);
-  lcd.print("Влаж: ");
+  lcd.print("Hum: ");
 }
 
 void loop() {
